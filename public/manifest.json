@@ -1,0 +1,16 @@
+{
+  "name": "Inventory App",
+  "slug": "inventory-app",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "main": "https://your-vercel-url.app/",
+  "permissions": ["boards:read", "items:read", "items:write", "updates:write"],
+  "features": [
+    {
+      "type": "board-view",
+      "name": "Inventory View",
+      "url": "https://your-vercel-url.app/",
+      "height": 600
+    }
+  ]
+}
