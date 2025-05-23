@@ -1,0 +1,23 @@
+{
+  "name": "Inventory App",
+  "slug": "inventory-app",
+  "version": "1.0.0",
+  "author": "vitabuild",
+  "main": "https://inventory-monday-app.vercel.app/",
+  "permissions": [
+    "boards:read",
+    "items:read",
+    "items:write",
+    "updates:write"
+  ],
+  "features": [
+    {
+      "type": "board-view",
+      "name": "Inventory View",
+      "url": "https://inventory-monday-app.vercel.app/",
+      "height": 600
+    }
+  ],
+  "support_url": "https://github.com/vitabuild/inventory-monday-app/issues",
+  "monitored": true
+}
